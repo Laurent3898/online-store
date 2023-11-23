@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-hero {
+  @apply z-20 bg-bottom bg-no-repeat bg-cover flex min-h-screen flex-col p-5;
+}
+
+.card-comments {
+  @apply duration-300 bg-slate-50/80 border-spacing-4 border-transparent shadow-lg;
+}
+.card-comments:hover {
+  @apply border-theme-color-2;
+}
