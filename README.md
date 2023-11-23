@@ -42,3 +42,9 @@ Pour déployer le projet, utiliser la commande
 
 - Appuez pour démarrer le live demo
   [![Project For Big Dev Company](https://img.shields.io/badge/Live%20Demo%20Online-8A2BE2)](https://online-store-items.vercel.app/)
+
+## Copier le lien ci-dessous pour cloner le projet
+
+```bash
+https://github.com/Laurent3898/online-store.git
+```
