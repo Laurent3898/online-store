@@ -37,3 +37,8 @@ Pour déployer le projet, utiliser la commande
 ```bash
   npm run start
 ```
+
+## Faire du Demo directement
+
+- Appuez pour démarrer le live demo
+  [![Project For Big Dev Company](https://img.shields.io/badge/Live%20Demo%20Online-8A2BE2)](https://online-store-items.vercel.app/)
