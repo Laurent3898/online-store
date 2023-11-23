@@ -48,3 +48,11 @@ Pour déployer le projet, utiliser la commande
 ```bash
 https://github.com/Laurent3898/online-store.git
 ```
+
+## Technologies utiliser
+
+**Client:** ReactJS, Next.js, TailwindCSS,
+
+**Server:** Node, Express
+
+**Database**: SQLite
