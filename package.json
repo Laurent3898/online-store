@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "node backend/server.js",
+    "start:frontend": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "lint": "next lint"
   },
   "keywords": [
@@ -32,6 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
+    "concurrently": "^8.2.2",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
     "localStorage": "^1.0.4",
