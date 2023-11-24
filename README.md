@@ -31,11 +31,11 @@ Simple projet pour stocker et afficher des articles pour enfin leur commenter, p
 Pour déployer le projet, utiliser la commande
 
 ```bash
-  npm run build
+  npm build
 ```
 
 ```bash
-  npm run start
+  npm start
 ```
 
 ## Faire du Demo directement
