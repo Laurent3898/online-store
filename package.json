@@ -7,7 +7,7 @@
     "start:backend": "node backend/server.js",
     "start:frontend": "next dev",
     "build": "next build",
-    "start": "npm run start:backend",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "lint": "next lint"
   },
   "keywords": [
