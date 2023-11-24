@@ -13,12 +13,6 @@ Simple projet pour stocker et afficher des articles pour enfin leur commenter, p
 - Ensuite
 
 ```bash
-    node backend/server.js
-```
-
-- Après
-
-```bash
     npm run dev
 ```
 
